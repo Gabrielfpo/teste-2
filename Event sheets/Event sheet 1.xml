@@ -2,5 +2,19 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="396931332576537">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="546139274664171" type="heroi">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">655</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="113789911754852" type="System" />
+                <action id="-9" name="Destroy" sid="999237693467120" type="base" />
+                <action id="-9" name="Destroy" sid="890103650599067" type="heroi" />
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
